@@ -1,0 +1,235 @@
+.vr_layout{
+	max-width: 640px;
+	min-width: 320px;
+	margin:0 auto;
+	width: 100%;
+	height:200px;
+}
+footer{
+	position: fixed;
+	left:0;
+	bottom:0;
+	width: 100%;
+	height:40px;
+	z-index: 10;
+}
+footer>section{
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	margin:0 auto;
+	background-color: #fff;
+}
+.vr_nav{
+	width: 100%;
+    border-top: 1px solid  #ccc;
+    box-shadow: 0px 1px 2px 2px #eee;
+}
+.vr_nav>ul>li{
+	width: 20%;
+	float: left;
+	height: 40px;
+	text-align: center;
+	overflow: hidden;
+}
+.vr_nav>ul>li>a:hover div{
+	margin-top:-39px;
+}
+.vr_nav>ul>li>a{
+	width: 100%;
+	float: left;
+	display: block;
+	height: 40px;
+}
+.vr_nav>ul>li>a>div>p{
+	text-align: center;
+	font-size: 12px;
+	color:#666;
+}
+
+.vr_nav>ul>li>a>div>img{
+	width: 15px;
+	height: 15px;
+	margin-top: 2px;
+}
+.vr_nav>ul>li>a>div>img:nth-child(3){
+	margin-top:4px;
+}
+.vr_nav>ul>li>a>div>p:nth-child(4){
+	color: #f15e54;
+}
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+}
+#search{
+    max-width: 640px;
+    min-width: 320px;
+    margin:0 auto;
+    width: 100%;
+    background: url('../../UIimage/AdverImg/tooopen_16045501_01.png');
+	background-size: 100% 100%;
+}
+.user{
+	width: 20px;
+	height: 20px;
+    float: left;
+    background: url('../../UIimage/icons/547045309068aae_03.png');
+    background-size: 100% 100%;
+    margin-top:5px;
+}
+.index{
+	height: 20px;
+	width: 20px;
+	float: right;
+	margin-top: 5px;
+	background:url('../../UIimage/icons/547045309068eddd_0331_03.png');
+	background-size: 100% 100%;
+}
+.search_input{
+	padding: 0 20px;
+	width: 100%;
+}
+.search_input>input{
+	width: 100%;
+	height:30px;
+	border-radius: 20px;
+	background: rgba(255,255,255,.8);
+	text-indent: 20px;
+}
+header>nav>ul{
+	width: 100%;
+}
+header>section>nav>ul>li{
+	width: 20%;
+	float: left;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+/*    border-radius: 15px;
+
+	background-color:orange;*/
+}
+header>section>nav>ul>li>a{
+	color: #fff;
+	font-size: 15px;
+	display: block;
+	width: 100%;
+}
+header>section>nav>ul>li>a:hover{
+	
+}
+main{
+	background:url(../../UIimage/AdverImg/tooopen_16045501_02.png);
+	margin-top: 60px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+main>nav>ul>li{
+	width: 50%;
+	height:100px;
+	padding: 8px;
+	float: left;
+
+}
+main>nav>ul>li>a{
+	display: block;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+main>nav>ul>li>a>img{
+	width: 100%;
+	height: 100%;
+	background: url();
+	background-size: 100% 100%;
+	border-radius: 5px;
+}
+.app{
+	background: #f5f5f5;
+	 overflow: hidden;
+	 margin-bottom: 40px;
+}
+.applist{
+    margin-top: 5px;
+    background-color: #fff;
+
+}
+.applist_tit{
+	text-align: center;
+    height: 30px;
+    line-height: 30px;
+}.applist_body>ul>li{
+	position: relative;
+}
+.applist_body>ul>li>a{
+	width: 100%;
+	padding: 15px;
+	border-bottom: 1px solid #ccc;
+	display: block;
+	height: 80px;
+}
+.applist_body>ul>li>a>img{
+  /*  width: 60px;
+    height: 60px;*/
+    position: absolute;
+    top:10%;
+    left:5%;
+}
+.applist_body>ul>li>a>div:nth-child(2){
+	position: absolute;
+	top:10%;
+	left: 30%;
+}
+.applist_body>ul>li>a>div:nth-child(2)>p:nth-child(1){
+	font-size: 16px;
+
+}
+.applist_body>ul>li>a>div:nth-child(2)>p:nth-child(2){
+	font-size: 10px;
+    color: #999;
+    margin-top: 4px;
+}
+.applist_body>ul>li>a>div:nth-child(2)>p:nth-child(3){
+	font-size: 10px;
+    color: #999;
+    margin-top: 1px;
+}
+.applist_body>ul>li>a>div:nth-child(3){
+	position: absolute;
+	top:15%;
+	right:5%;
+	font-size: 12px;
+	color: #fff;
+	background-color: #87ceeb;
+	width: 50px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+}
+.applist_body>ul>li>a>div>p:nth-child(1){
+    font-size: 16px;
+   
+}
+.applist_body>ul>li>a>:nth-child(2){
+	font-size: 12px;
+}
+.advert{
+	margin-top:5px;
+	padding: 4px;
+}
+.img_thumnail{
+	display: inline-block;
+    width: 100%;
+    height: 100px;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+}
