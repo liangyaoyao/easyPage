@@ -53,7 +53,7 @@ footer>section{
 }
 /*底部固定导航结束*/
 .personal-info{
-	background:url(../../UIimage/AdverImg/UserBk.png);
+	background:url(../UIimage/AdverImg/UserBk.png);
 	background-size: 100% 100%;
 	/*background: -webkit-linear-gradient(left, #e87467 , #f48073); */
 	position: relative;
